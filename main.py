@@ -10,7 +10,7 @@ def selenium_to_html(input):
     return temp
 
 def load_page(pageNumber):
-    browser.get("https://www.bosch-home.com.tr/urun-listesi/buzdolaplari-derin-dondurucular/?pageNumber="+str(pageNumber))
+    browser.get("https://www.web_address/?pageNumber="+str(pageNumber))
 
 products=[]
 pageNumber=1
